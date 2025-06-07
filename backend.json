@@ -1,0 +1,159 @@
+{
+    "personalDetails": {
+        "name": "Or Orsatti",
+        "description": "Senior Full-Stack Engineer with 3+ years of experience looking for a  seeking a challenging backend position.",
+        "phoneNumber": "+972528461007",
+        "email": "ororsatti@gmail.com",
+        "linkedIn": "https://www.linkedin.com/in/or-orsatti/",
+        "gitHub": "https://github.com/ororsatti",
+        "languages": [
+            {
+                "title": "English",
+                "level": "Proficient"
+            },
+            {
+                "title": "Hebrew",
+                "level": "Native"
+            }
+        ]
+    },
+    "workExperience": [
+        {
+            "title": "10Play",
+            "role": "Full-stack developer",
+            "description": "a boutique software agency. Worked on multiple client projects, developing custom solutions across various industries.",
+            "start": "2022",
+            "projects": [
+                {
+                    "title": "Zafran Security",
+                    "start": "2024",
+                    "description": "Architected and implemented a generic metrics Framework using Go",
+                    "bulletPoints": [
+                        "Architected and submitted design documents describing the solution",
+                        "Engineered oncurrent metric calculations in Go using goroutines",
+                        "Designed database schemas to support multiple dashboards with different metric sectionsusing Ent and Postgres"
+                    ],
+                    "technologies": [
+                        "Golang",
+                        "gRPC",
+                        "protobuffs",
+                        "Entgo",
+                        "Docker",
+                        "Nix",
+                        "PostgreSQL"
+                    ]
+                },
+                {
+                    "title": "NOF cooling",
+                    "description": "Built a React Native app to monitor and control smart on-farm refrigeration units via Bluetooth Low Energy (BLE).",
+                    "start": "2024",
+                    "bulletPoints": [
+                        "Built an action-tracking system to manage machine and team states.",
+                        "Set up backend infrastructure with Supabase and edge functions.",
+                        "Established separate development and production environments."
+                    ],
+                    "technologies": [
+                        "React",
+                        "React Native",
+                        "JavaScript",
+                        "TypeScript",
+                        "Supabase",
+                        "Drizzle",
+                        "PostgreSQL",
+                        "SQL"
+                    ]
+                },
+                {
+                    "title": "Groundwork",
+                    "start": "2024",
+                    "end": "2025",
+                    "description": "Built a CRM platform and an offline-first mobile app for farm management and soil sampling.",
+                    "bulletPoints": [
+                        "Led development of an offline-first React Native sampling app with a custom sync engine.",
+                        "Designed backend schemas to support multi-stage user onboarding.",
+                        "Developed a mock system for end-to-end testing without labs or physical samplers."
+                    ],
+                    "technologies": [
+                        "React",
+                        "React Native",
+                        "JavaScript",
+                        "TypeScript",
+                        "Express",
+                        "Prisma",
+                        "SQL",
+                        "Docker",
+                        "Azure"
+                    ]
+                },
+                {
+                    "title": "PlaySTUIDOS",
+                    "description": "Built an internal tool to measure and visualize ad performance across multiple campaigns.",
+                    "start": "2023",
+                    "end": "2024",
+                    "bulletPoints": [
+                        "Authored SQL queries against DynamoDB via PartiQL to aggregate and filter large-scale ad campaign data.",
+                        "Developed RESTful API endpoints in Python/Flask to serve dashboard data to front-end applications."
+                    ],
+                    "technologies": [
+                        "Python",
+                        "Flask",
+                        "DynamoDB",
+                        "SQL"
+                    ]
+                },
+                {
+                    "title": "Skiff - Aquired by Notion",
+                    "description": "Built a privacy-first, end-to-end encrypted collaboration suite—an alternative to Google Workspace.",
+                    "start": "2022",
+                    "end": "2023",
+                    "bulletPoints": [
+                        "Engineered a custom locally encrypted SQLite solution for the app, cutting query time by 40%",
+                        "Extended GraphQL API to support real-time sync flows",
+                        "Optimized Prisma by refactoring large joins into targeted queries"
+                    ],
+                    "technologies": [
+                        "Node.js",
+                        "Express",
+                        "GraphQL",
+                        "Prisma",
+                        "PostgreSQL",
+                        "TypeScript",
+                        "Docker",
+                        "AWS",
+                        "SQLite"
+                    ]
+                }
+            ]
+        }
+    ],
+    "education": [
+        {
+            "title": "Cyber4s",
+            "description": "A program that trains discharged fighters to be a full-stack engineers.",
+            "start": "May 2022",
+            "end": "Nov 2022"
+        },
+        {
+            "title": "Magshimim",
+            "description": "A youth education program in Israel that focuses on producing candidates for the  military ",
+            "start": "2016",
+            "end": "2019"
+        },
+        {
+            "title": "Beer Tuvia High School",
+            "description": "High school major in Software Engineering (10 pts), minor in Chemistry (5 pts).",
+            "start": "2016",
+            "end": "2019"
+        }
+    ],
+    "militeryService": {
+        "title": "Combat engineer - Squad commander & Rasap",
+        "start": "2019",
+        "end": "2022",
+        "bulletPoints": [
+            "Managed multiple projects simultaneously.",
+            "Coordinated with multiple authorities in parallel.",
+            "Led field operations and team coordination under high-pressure environments."
+        ]
+    }
+}

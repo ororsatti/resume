@@ -2,7 +2,7 @@
     "name": "resume",
     "version": "1.0.0",
     "scripts": {
-        "start": "browser-sync start --server --files \"index.html, app.js, resume.json, index.css\""
+        "start": "browser-sync start --server --files \"index.html, app.js, fullstack.json, index.css\""
     },
     "devDependencies": {
         "browser-sync": "^2.27.10"

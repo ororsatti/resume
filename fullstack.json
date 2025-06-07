@@ -1,7 +1,7 @@
 {
     "personalDetails": {
         "name": "Or Orsatti",
-        "description": "Senior Full-stack engineer with 3+ years of experience looking for a full stack position.",
+        "description": "Senior Full-stack Engineer with 3+ years of experience looking for a  seeking a challenging full-stack position.",
         "phoneNumber": "+972528461007",
         "email": "ororsatti@gmail.com",
         "linkedIn": "https://www.linkedin.com/in/or-orsatti/",
@@ -69,9 +69,9 @@
                     "end": "2025",
                     "description": "Built a CRM platform and an offline-first mobile app for farm management and soil sampling.",
                     "bulletPoints": [
-                        "Led development of an offline-first React Native sampling app: implemented a custom sync engine, integrated React Native Maps.",
-                        "Developed the entire user onboarding flow in the CRM, streamlining farm registration and user management.",
-                        "Built a mocking system to allow end-to-end testing without interacting with labs or physical samplers."
+                        "Led development of an offline-first React Native sampling app with a custom sync engine.",
+                        "Designed backend schemas to support multi-stage user onboarding.",
+                        "Developed a mock system for end-to-end testing without labs or physical samplers."
                     ],
                     "technologies": [
                         "React",
@@ -81,7 +81,8 @@
                         "Express",
                         "Prisma",
                         "SQL",
-                        "Docker"
+                        "Docker",
+                        "Azure"
                     ]
                 },
                 {
@@ -125,7 +126,8 @@
                         "PostgreSQL",
                         "JavaScript",
                         "TypeScript",
-                        "Docker"
+                        "Docker",
+                        "AWS"
                     ]
                 }
             ]
