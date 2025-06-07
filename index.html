@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Or Orsatti Resume</title>
+    <link rel="stylesheet" href="resets.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js">
+    </script>
+    <script src="app.js" defer></script>
+</head>
+
+<body id="template">
+    <div class="header">
+        <div class="header__info">
+            <div class="header--title font--lg">{{personalDetails.name}}</div>
+            <div class="header--desc font--sm">{{personalDetails.description}}</div>
+        </div>
+        <ul class="header__contact-list font--xs">
+            <li>
+                <a class="link" href="tel:{{personalDetails.phoneNumber}}">{{personalDetails.phoneNumber}}</a>
+            </li>
+            <li>
+                <a class="link"
+                    href="mailto:{{personalDetails.email}}?subject=Hey%2C%20I%27m%20contacting%20you%20about%20your%20resume&body=We%20want%20to%20offer%20you%20a%20job">{{personalDetails.email}}</a>
+            </li>
+            <li>
+                <a class="link" href="{{personalDetails.linkedIn}}">{{personalDetails.linkedIn}}</a>
+            </li>
+            <li>
+                <a class="link" href="{{personalDetails.gitHub}}">{{personalDetails.gitHub}}</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="sections">
+        <div class="section">
+            <div class="font--lg section__title">Work Experience</div>
+            {{#each workExperience as | job |}}
+            <div class="job">
+                <div class="job__header">
+                    <div class="job__title">
+                        <span class="font--md job__title__text">{{job.title}}</span>
+                        <div class="font--xs job__title__duration">
+                            {{job.start}} - {{#if job.end}} {{job.end}} {{else}} Present {{/if}}
+                        </div>
+                    </div>
+                    <div class="job__desc font--sm"><span class="job__role">{{job.role}} at {{job.title}},
+                        </span>{{job.description}}
+                    </div>
+                </div>
+                <ul class="list">
+                    {{#each job.projects as | p |}}
+                    <li class="project">
+                        <div class="project__title font--sm">
+                            <span class="client-text">Client: </span>{{p.title}}
+                            ({{p.start}} - {{#if p.end}}{{p.end}}{{else}}Present{{/if}})
+                        </div>
+                        <div class="project__desc font--xs">
+                            {{p.description}}
+                        </div>
+                        <ul class="project__bullet-points">
+                            {{#each p.bulletPoints as | bp |}}
+                            <li class="font--xs">{{bp}}</li>
+                            {{/each}}
+                        </ul>
+                        <ul class="project__tech">
+                            {{#each p.technologies as | t |}}
+                            <li class="text--xxs">{{t}}</li>
+                            {{/each}}
+                        </ul>
+                    </li>
+                    {{/each}}
+                </ul>
+                {{/each}}
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="font--lg section__title">Education</div>
+            <ul class="list">
+                {{#each education as | institute | }}
+                <li>
+                    <div class="font--sm institute__title">{{institute.title}} ({{institute.start}} -
+                        {{institute.end}})</div>
+                    <div class="font--xs institute__desc">{{institute.description}}</div>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+
+        <div class="section">
+            <div class="font--lg section__title">Military Service</div>
+            <div class="militery__details">
+                <span class="font--sm militery__details__title">{{militeryService.title}}</span>
+                <ul class="militery__bullet-points">
+                    {{#each militeryService.bulletPoints as | bp |}}
+                    <li class="font--xs">{{bp}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

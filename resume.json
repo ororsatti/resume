@@ -1,0 +1,148 @@
+{
+    "personalDetails": {
+        "name": "Or Orsatti",
+        "description": "Senior Full-stack engineer with 3+ years of experiance looking for a full stack position.",
+        "phoneNumber": "+972528461007",
+        "email": "ororsatti@gmail.com",
+        "linkedIn": "https://www.linkedin.com/in/or-orsatti/",
+        "gitHub": "https://github.com/ororsatti"
+    },
+    "workExperience": [
+        {
+            "title": "10Play",
+            "role": "Full-stack developer",
+            "description": "a boutique software agency. Worked on multiple client projects, developing custom solutions across various industries.",
+            "start": "2022",
+            "projects": [
+                {
+                    "title": "Zafran Security",
+                    "start": "2024",
+                    "description": "Archtected and implemented a generic metrics system in the dashboard.",
+                    "bulletPoints": [
+                        "Architected and submitted design documents describing the solution",
+                        "Implemented concurrent metric calculations in Go using goroutines",
+                        "Built a React frontend for key-metrics configuration and reporting, releasing to general availability within months."
+                    ],
+                    "technologies": [
+                        "JavaScript",
+                        "TypeScript",
+                        "React",
+                        "Golang",
+                        "gRPC",
+                        "protobuffs",
+                        "Entgo"
+                    ]
+                },
+                {
+                    "title": "NOF cooling",
+                    "description": "Developing on-farm refrigerators, that operate over blutooth.",
+                    "start": "2024",
+                    "bulletPoints": [
+                        "Developed a React Native mobile application for remote monitoring and control of on-farm refrigerators.",
+                        "Built a Bluetooth Low Energy (BLE) communication layer in React Native to query and control refrigeration units.",
+                        "Designed the backend infrastructure using Supabase and edge functions"
+                    ],
+                    "technologies": [
+                        "JavaScript",
+                        "TypeScript",
+                        "React",
+                        "React Native",
+                        "Supabase",
+                        "Bluetooth Low Energy (BLE)"
+                    ]
+                },
+                {
+                    "title": "Groundwork",
+                    "start": "2024",
+                    "end": "2025",
+                    "description": "Built a CRM platform and an offline-first mobile app for farm management and soil sampling.",
+                    "bulletPoints": [
+                        "Led development of an offline-first React Native sampling app: implemented a custom sync engine, integrated React Native Maps.",
+                        "Developed the entire user onboarding flow in the CRM, streamlining farm registration and user management.",
+                        "Built a mocking system to allow end-to-end testing without interacting with labs or physical samplers."
+                    ],
+                    "technologies": [
+                        "React",
+                        "React Native",
+                        "JavaScript",
+                        "TypeScript",
+                        "Express",
+                        "Prisma",
+                        "SQL"
+                    ]
+                },
+                {
+                    "title": "PlaySTUIDOS",
+                    "description": "Built an internal tool to measure and visualize ad performance across multiple campaigns.",
+                    "start": "2023",
+                    "end": "2024",
+                    "bulletPoints": [
+                        "Implemented interactive data visualizations in React using Plotly.js ",
+                        "Authored SQL queries against DynamoDB via PartiQL to aggregate and filter large-scale ad campaign data.",
+                        "Developed RESTful API endpoints in Python/Flask to serve dashboard data to front-end applications."
+                    ],
+                    "technologies": [
+                        "React",
+                        "JavaScript",
+                        "TypeScript",
+                        "Plotly.js",
+                        "Python",
+                        "Flask",
+                        "DynamoDB",
+                        "SQL"
+                    ]
+                },
+                {
+                    "title": "Skiff - Aquired by Notion",
+                    "description": "Built a privacy-first, end-to-end encrypted collaboration suite—an alternative to Google Workspace.",
+                    "start": "2022",
+                    "end": "2023",
+                    "bulletPoints": [
+                        "Developed offline-first, encrypted email client in React Native, reaching 200,000+ users.",
+                        "Led the development of a custom DB solution to support encrypted SQLite, reducing query time by 40%",
+                        "Added support for the sync mechanism in existing GrapQL routes."
+                    ],
+                    "technologies": [
+                        "React Native",
+                        "Node.js",
+                        "Express",
+                        "GraphQL",
+                        "SQL",
+                        "Prisma",
+                        "PostgreSQL",
+                        "JavaScript",
+                        "TypeScript"
+                    ]
+                }
+            ]
+        }
+    ],
+    "education": [
+        {
+            "title": "Cyber4s",
+            "description": "A program that trains discharged fighters to be a full-stack engineers.",
+            "start": "May 2022",
+            "end": "Nov 2022"
+        },
+        {
+            "title": "Magshimim",
+            "description": "A youth education program in Israel that focuses on producing candidates for the  military ",
+            "start": "2016",
+            "end": "2019"
+        },
+        {
+            "title": "Beer Tuvia High School",
+            "description": "10 points software engineering, 5 points chemistry.",
+            "start": "2016",
+            "end": "2019"
+        }
+    ],
+    "militeryService": {
+        "title": "Combat engineer - Squad commander and Rasap (CSM)",
+        "bulletPoints": [
+            "Managed multiple projects simultaneously.",
+            "Coordinated with multiple authorities in parallel.",
+            "Worked under pressure."
+        ]
+    }
+}

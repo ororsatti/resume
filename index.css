@@ -1,0 +1,209 @@
+html {
+    font-size: 10px;
+    --text-primary: rgb(34, 40, 49);
+    --text-secondary: rgb(100, 100, 100);
+    --seperator: #3498db;
+    --link: rgb(61, 144, 215);
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    padding: 1.6rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.font--lg {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.font--md {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+
+.font--sm {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.font--xs {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.font--xxs {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.link {
+    color: var(--link);
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.list>li {
+    border-left: 1.5px solid rgba(50, 50, 50, 0.1);
+    padding-left: 8px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.header--title {
+    color: var(--text-primary);
+}
+
+.header--desc {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.header__contact-list {
+    list-style-type: none;
+}
+
+.header__contact-list__label {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.section__title {
+    border-bottom: 1px solid var(--seperator);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.job__header {
+    display: flex;
+    flex-direction: column;
+}
+
+.job__title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 2px;
+}
+
+.job__title__text {
+    font-weight: 700;
+}
+
+.job__title__duration {
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
+.job__role {
+    font-weight: 600;
+}
+
+.job__desc {
+    border-left: 3px solid var(--seperator);
+    background: rgba(183, 183, 183, 0.1);
+    padding: 3px 3px 3px 6px;
+}
+
+.job__projects {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.client-text {
+    color: var(--text-secondary);
+    font-weight: 300;
+}
+
+.project__title {
+    font-weight: 600;
+}
+
+.project__desc {
+    font-style: italic;
+}
+
+.project__bullet-points {
+    margin-left: 12px;
+    list-style-type: square;
+}
+
+.project__tech {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.project__tech>li {
+    background: #e7f5ff;
+    color: #3498db;
+
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.institute__title {
+    font-weight: 600;
+}
+
+.institute__desc {
+    font-style: italic;
+}
+
+.militery__details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    border-left: 1.5px solid rgba(50, 50, 50, 0.1);
+    padding-left: 8px;
+}
+
+.militery__details__title {
+    font-weight: 600;
+}
+
+
+.militery__bullet-points {
+    margin-left: 12px;
+    list-style-type: square;
+}
