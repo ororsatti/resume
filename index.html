@@ -27,7 +27,7 @@
                 <a class="link" href="tel:{{personalDetails.phoneNumber}}">{{personalDetails.phoneNumber}}</a>
             </li>
             <li>
-                <a class="link"
+                <a class="link" target="_blank"
                     href="mailto:{{personalDetails.email}}?subject=Hey%2C%20I%27m%20contacting%20you%20about%20your%20resume&body=We%20want%20to%20offer%20you%20a%20job">{{personalDetails.email}}</a>
             </li>
             <li>
@@ -36,6 +36,12 @@
             <li>
                 <a class="link" href="{{personalDetails.gitHub}}">{{personalDetails.gitHub}}</a>
             </li>
+        </ul>
+        <ul class="header__lang-list">
+            {{#each personalDetails.languages as | l |}}
+            <li class="text--xs"><span class="lang-title">{{l.title}}</span><span class="lang-level">{{l.level}}</span>
+            </li>
+            {{/each}}
         </ul>
     </div>
 
@@ -98,7 +104,8 @@
         <div class="section">
             <div class="font--lg section__title">Military Service</div>
             <div class="militery__details">
-                <span class="font--sm militery__details__title">{{militeryService.title}}</span>
+                <span class="font--sm militery__details__title">{{militeryService.title}} ({{militeryService.start}} -
+                    {{militeryService.end}})</span>
                 <ul class="militery__bullet-points">
                     {{#each militeryService.bulletPoints as | bp |}}
                     <li class="font--xs">{{bp}}</li>

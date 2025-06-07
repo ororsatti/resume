@@ -1,11 +1,21 @@
 {
     "personalDetails": {
         "name": "Or Orsatti",
-        "description": "Senior Full-stack engineer with 3+ years of experiance looking for a full stack position.",
+        "description": "Senior Full-stack engineer with 3+ years of experience looking for a full stack position.",
         "phoneNumber": "+972528461007",
         "email": "ororsatti@gmail.com",
         "linkedIn": "https://www.linkedin.com/in/or-orsatti/",
-        "gitHub": "https://github.com/ororsatti"
+        "gitHub": "https://github.com/ororsatti",
+        "languages": [
+            {
+                "title": "English",
+                "level": "Proficient"
+            },
+            {
+                "title": "Hebrew",
+                "level": "Native"
+            }
+        ]
     },
     "workExperience": [
         {
@@ -17,7 +27,7 @@
                 {
                     "title": "Zafran Security",
                     "start": "2024",
-                    "description": "Archtected and implemented a generic metrics system in the dashboard.",
+                    "description": "Architected and implemented a generic metrics system in the dashboard.",
                     "bulletPoints": [
                         "Architected and submitted design documents describing the solution",
                         "Implemented concurrent metric calculations in Go using goroutines",
@@ -30,12 +40,14 @@
                         "Golang",
                         "gRPC",
                         "protobuffs",
-                        "Entgo"
+                        "Entgo",
+                        "Docker",
+                        "Nix"
                     ]
                 },
                 {
                     "title": "NOF cooling",
-                    "description": "Developing on-farm refrigerators, that operate over blutooth.",
+                    "description": "Built a React Native app to monitor and control smart on-farm refrigeration units via Bluetooth Low Energy (BLE).",
                     "start": "2024",
                     "bulletPoints": [
                         "Developed a React Native mobile application for remote monitoring and control of on-farm refrigerators.",
@@ -68,7 +80,8 @@
                         "TypeScript",
                         "Express",
                         "Prisma",
-                        "SQL"
+                        "SQL",
+                        "Docker"
                     ]
                 },
                 {
@@ -111,7 +124,8 @@
                         "Prisma",
                         "PostgreSQL",
                         "JavaScript",
-                        "TypeScript"
+                        "TypeScript",
+                        "Docker"
                     ]
                 }
             ]
@@ -132,17 +146,19 @@
         },
         {
             "title": "Beer Tuvia High School",
-            "description": "10 points software engineering, 5 points chemistry.",
+            "description": "High school major in Software Engineering (10 pts), minor in Chemistry (5 pts).",
             "start": "2016",
             "end": "2019"
         }
     ],
     "militeryService": {
-        "title": "Combat engineer - Squad commander and Rasap (CSM)",
+        "title": "Combat engineer - Squad commander & Rasap",
+        "start": "2019",
+        "end": "2022",
         "bulletPoints": [
             "Managed multiple projects simultaneously.",
             "Coordinated with multiple authorities in parallel.",
-            "Worked under pressure."
+            "Led field operations and team coordination under high-pressure environments."
         ]
     }
 }
