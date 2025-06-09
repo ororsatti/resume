@@ -178,6 +178,10 @@ body {
     gap: 4px;
 }
 
+.project__role {
+    font-weight: 600;
+}
+
 .client-text {
     color: var(--text-secondary);
     font-weight: 300;

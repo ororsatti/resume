@@ -66,7 +66,8 @@
                     {{#each job.projects as | p |}}
                     <li class="project">
                         <div class="project__title font--sm">
-                            <span class="client-text">Client: </span>{{p.title}}
+                            <span class="client-text">Client: </span>{{p.title}} - <span
+                                class="font--sm project__role">{{p.role}}</span>
                             ({{p.start}} - {{#if p.end}}{{p.end}}{{else}}Present{{/if}})
                         </div>
                         <div class="project__desc font--xs">

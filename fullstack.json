@@ -25,6 +25,7 @@
             "start": "2022",
             "projects": [
                 {
+                    "role": "Full-stack developer",
                     "title": "Zafran Security",
                     "start": "2024",
                     "description": "Architected and implemented a generic metrics system in the dashboard.",
@@ -46,6 +47,7 @@
                     ]
                 },
                 {
+                    "role": "Full-stack developer",
                     "title": "NOF cooling",
                     "description": "Built a React Native app to monitor and control smart on-farm refrigeration units via Bluetooth Low Energy (BLE).",
                     "start": "2024",
@@ -64,6 +66,7 @@
                     ]
                 },
                 {
+                    "role": "Full-stack developer",
                     "title": "Groundwork",
                     "start": "2024",
                     "end": "2025",
@@ -86,6 +89,7 @@
                     ]
                 },
                 {
+                    "role": "Full-stack developer",
                     "title": "PlaySTUIDOS",
                     "description": "Built an internal tool to measure and visualize ad performance across multiple campaigns.",
                     "start": "2023",
@@ -107,6 +111,7 @@
                     ]
                 },
                 {
+                    "role": "Full-stack developer",
                     "title": "Skiff - Aquired by Notion",
                     "description": "Built a privacy-first, end-to-end encrypted collaboration suite—an alternative to Google Workspace.",
                     "start": "2022",
