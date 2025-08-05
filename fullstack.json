@@ -1,7 +1,7 @@
 {
     "personalDetails": {
         "name": "Or Orsatti",
-        "description": "Senior Full-stack Engineer with 3+ years of experience looking for a  seeking a challenging full-stack position.",
+        "description": "Full-stack Engineer with 3+ years of experience in building and scaling applications using Go,NodeJS, React, and React Native. I thrive on solving complex problems and have a proven track record of delivering high-quality, end-to-end solutions in fast-paced agency and startup environments.",
         "phoneNumber": "+972528461007",
         "email": "ororsatti@gmail.com",
         "linkedIn": "https://www.linkedin.com/in/or-orsatti/",
@@ -35,6 +35,7 @@
                         "Built a React frontend for key-metrics configuration and reporting, releasing to general availability within months."
                     ],
                     "technologies": [
+                        "Storybook",
                         "JavaScript",
                         "TypeScript",
                         "React",
@@ -43,7 +44,10 @@
                         "protobuffs",
                         "Entgo",
                         "Docker",
-                        "Nix"
+                        "Nix",
+                        "ElasticSearch",
+                        "Git",
+                        "Kibana"
                     ]
                 },
                 {
@@ -62,7 +66,13 @@
                         "React",
                         "React Native",
                         "Supabase",
-                        "Bluetooth Low Energy (BLE)"
+                        "Bluetooth Low Energy (BLE)",
+                        "S3",
+                        "OAuth",
+                        "Twilio",
+                        "OTP",
+                        "Git",
+                        "Express.js"
                     ]
                 },
                 {
@@ -83,9 +93,14 @@
                         "TypeScript",
                         "Express",
                         "Prisma",
-                        "SQL",
+                        "PostgreSQL",
                         "Docker",
-                        "Azure"
+                        "Azure",
+                        "MongoDB",
+                        "OAuth",
+                        "JWT",
+                        "Git",
+                        "Express.js"
                     ]
                 },
                 {
@@ -107,7 +122,10 @@
                         "Python",
                         "Flask",
                         "DynamoDB",
-                        "SQL"
+                        "SQL",
+                        "MongoDB",
+                        "Git",
+                        "Express.js"
                     ]
                 },
                 {
@@ -124,6 +142,7 @@
                     "technologies": [
                         "React Native",
                         "Node.js",
+                        "NextJS",
                         "Express",
                         "GraphQL",
                         "SQL",
@@ -132,7 +151,11 @@
                         "JavaScript",
                         "TypeScript",
                         "Docker",
-                        "AWS"
+                        "SQLite",
+                        "AWS",
+                        "MongoDB",
+                        "Git",
+                        "Express.js"
                     ]
                 }
             ]
@@ -161,11 +184,6 @@
     "militeryService": {
         "title": "Combat engineer - Squad commander & Rasap",
         "start": "2019",
-        "end": "2022",
-        "bulletPoints": [
-            "Managed multiple projects simultaneously.",
-            "Coordinated with multiple authorities in parallel.",
-            "Led field operations and team coordination under high-pressure environments."
-        ]
+        "end": "2022"
     }
 }

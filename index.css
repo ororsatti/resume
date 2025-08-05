@@ -206,6 +206,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 4px;
+    flex-wrap: wrap;
 }
 
 .project__tech>li {
