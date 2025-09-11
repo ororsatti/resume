@@ -1,7 +1,7 @@
 {
     "personalDetails": {
         "name": "Or Orsatti",
-        "description": "Senior Full-Stack Engineer with 3+ years of experience looking for a  seeking a challenging backend position.",
+        "description": "Results-driven Backend Engineer with 3+ years of experience in Go and Node.js. Specialized in designing resilient APIs, optimizing databases, and building concurrent data pipelines and real-time sync engines for mission-critical systems.",
         "phoneNumber": "+972528461007",
         "email": "ororsatti@gmail.com",
         "linkedIn": "https://www.linkedin.com/in/or-orsatti/",
@@ -20,101 +20,142 @@
     "workExperience": [
         {
             "title": "10Play",
-            "role": "Full-stack developer",
-            "description": "a boutique software agency. Worked on multiple client projects, developing custom solutions across various industries.",
+            "role": "Backend Engineer (client projects)",
+            "description": "Boutique software agency delivering custom backend-heavy solutions across multiple industries; led service design, API integration, and data layer optimization on several projects.",
             "start": "2022",
             "projects": [
                 {
-                    "role": "Full-stack developer",
+                    "role": "Backend Engineer (AI & Platform)",
+                    "title": "Titan",
+                    "start": "2025",
+                    "description": "Strengthened Titan’s no-code platform by building an AI-driven form generation service and robust schema validation workflows focused on backend reliability and correctness.",
+                    "bulletPoints": [
+                        "Built and deployed a stateless AI microservice for dynamic form/website generation with clear interfaces and observability.",
+                        "Refactored legacy form logic into reusable Zod schema modules to standardize server-side validation and reduce defects.",
+                        "Implemented automated validation pipelines to detect and correct LLM-induced schema issues, improving production stability."
+                    ],
+                    "technologies": [
+                        "Node.js",
+                        "TypeScript",
+                        "JavaScript",
+                        "Express",
+                        "Docker",
+                        "MongoDB",
+                        "LLMs",
+                        "Git",
+                        "React",
+                        "Redux"
+                    ]
+                },
+                {
+                    "role": "Backend Engineer",
                     "title": "Zafran Security",
                     "start": "2024",
-                    "description": "Architected and implemented a generic metrics Framework using Go",
+                    "end": "2025",
+                    "description": "Designed and developed a flexible metrics framework in Go, enabling product managers to define client-specific metrics without engineering changes.",
                     "bulletPoints": [
-                        "Architected and submitted design documents describing the solution",
-                        "Engineered oncurrent metric calculations in Go using goroutines",
-                        "Designed database schemas to support multiple dashboards with different metric sectionsusing Ent and Postgres"
+                        "Authored and reviewed design documents for a configurable metrics engine and data model.",
+                        "Implemented high-throughput concurrent metric computation with goroutines/channels and safe cancellation patterns.",
+                        "Modeled modular, multi-tenant Postgres schemas with Ent (Go ORM) to back custom dashboards and reporting."
                     ],
                     "technologies": [
                         "Golang",
                         "gRPC",
-                        "protobuffs",
+                        "Protobuf",
                         "Entgo",
                         "Docker",
                         "Nix",
-                        "PostgreSQL"
+                        "PostgreSQL",
+                        "Elasticsearch",
+                        "Kibana",
+                        "Git",
+                        "REST"
                     ]
                 },
                 {
-                    "role": "Full-stack developer",
+                    "role": "Backend-Focused Engineer",
                     "title": "NOF cooling",
-                    "description": "Built a React Native app to monitor and control smart on-farm refrigeration units via Bluetooth Low Energy (BLE).",
+                    "description": "Delivered the backend and platform plumbing for a React Native app controlling smart on-farm refrigeration units over BLE, with secure data flows and environments.",
                     "start": "2024",
                     "bulletPoints": [
-                        "Built an action-tracking system to manage machine and team states.",
-                        "Set up backend infrastructure with Supabase and edge functions.",
-                        "Established separate development and production environments."
+                        "Introduced action/state tracking to coordinate machine operations and team workflows on the server side.",
+                        "Provisioned backend with Supabase and edge functions; defined auth and data access policies.",
+                        "Established isolated development and production environments with environment-aware configuration."
                     ],
                     "technologies": [
-                        "React",
-                        "React Native",
-                        "JavaScript",
+                        "Node.js",
                         "TypeScript",
                         "Supabase",
-                        "Drizzle",
                         "PostgreSQL",
-                        "SQL"
+                        "Drizzle",
+                        "SQL",
+                        "OAuth",
+                        "Twilio",
+                        "OTP",
+                        "Git",
+                        "REST",
+                        "React",
+                        "React Native"
                     ]
                 },
                 {
-                    "role": "Full-stack developer",
+                    "role": "Backend-Focused Engineer",
                     "title": "Groundwork",
                     "start": "2024",
                     "end": "2025",
-                    "description": "Built a CRM platform and an offline-first mobile app for farm management and soil sampling.",
+                    "description": "Built the backend for a CRM and an offline-first mobile platform for farm management and soil sampling with robust sync and data integrity guarantees.",
                     "bulletPoints": [
-                        "Led development of an offline-first React Native sampling app with a custom sync engine.",
-                        "Designed backend schemas to support multi-stage user onboarding.",
-                        "Developed a mock system for end-to-end testing without labs or physical samplers."
+                        "Led architecture of a custom bi-directional sync engine ensuring consistency under intermittent connectivity.",
+                        "Delivered CRM + mobile flows with clear domain models and persistence boundaries.",
+                        "Created a full mock/testing system to run E2E without physical labs or samplers."
                     ],
                     "technologies": [
-                        "React",
-                        "React Native",
-                        "JavaScript",
+                        "Node.js",
                         "TypeScript",
                         "Express",
                         "Prisma",
                         "SQL",
                         "Docker",
-                        "Azure"
+                        "Azure",
+                        "MongoDB",
+                        "OAuth",
+                        "JWT",
+                        "Git",
+                        "REST",
+                        "React",
+                        "React Native"
                     ]
                 },
                 {
-                    "role": "Full-stack developer",
-                    "title": "PlaySTUIDOS",
-                    "description": "Built an internal tool to measure and visualize ad performance across multiple campaigns.",
+                    "role": "Backend Engineer",
+                    "title": "PlaySTUDIOS",
+                    "description": "Built data aggregation and APIs to measure and visualize ad performance across campaigns.",
                     "start": "2023",
                     "end": "2024",
                     "bulletPoints": [
-                        "Authored SQL queries against DynamoDB via PartiQL to aggregate and filter large-scale ad campaign data.",
-                        "Developed RESTful API endpoints in Python/Flask to serve dashboard data to front-end applications."
+                        "Wrote analytical queries against DynamoDB to aggregate/filter high-volume campaign data.",
+                        "Developed Python/Flask REST endpoints to serve normalized metrics to UI dashboards."
                     ],
                     "technologies": [
                         "Python",
                         "Flask",
                         "DynamoDB",
-                        "SQL"
+                        "SQL",
+                        "MongoDB",
+                        "Git",
+                        "REST"
                     ]
                 },
                 {
-                    "role": "Full-stack developer",
+                    "role": "Full-Stack Engineer",
                     "title": "Skiff - Aquired by Notion",
-                    "description": "Built a privacy-first, end-to-end encrypted collaboration suite—an alternative to Google Workspace.",
+                    "description": "Contributed to an end-to-end encrypted collaboration suite with emphasis on local storage performance, sync reliability, and API efficiency.",
                     "start": "2022",
                     "end": "2023",
                     "bulletPoints": [
-                        "Engineered a custom locally encrypted SQLite solution for the app, cutting query time by 40%",
-                        "Extended GraphQL API to support real-time sync flows",
-                        "Optimized Prisma by refactoring large joins into targeted queries"
+                        "Engineered a locally encrypted SQLite wrapper that significantly reduced query latency while preserving zero-knowledge guarantees.",
+                        "Extended GraphQL APIs to support reliable real-time sync flows.",
+                        "Optimized Prisma data access by replacing heavy joins with targeted queries and indices."
                     ],
                     "technologies": [
                         "Node.js",
@@ -125,7 +166,10 @@
                         "TypeScript",
                         "Docker",
                         "AWS",
-                        "SQLite"
+                        "SQLite",
+                        "MongoDB",
+                        "Git",
+                        "REST"
                     ]
                 }
             ]
@@ -134,13 +178,13 @@
     "education": [
         {
             "title": "Cyber4s",
-            "description": "A program that trains discharged fighters to be a full-stack engineers.",
+            "description": "A program that trains discharged fighters to be full-stack engineers.",
             "start": "May 2022",
             "end": "Nov 2022"
         },
         {
             "title": "Magshimim",
-            "description": "A youth education program in Israel that focuses on producing candidates for the  military ",
+            "description": "A youth education program in Israel that focuses on producing candidates for the military",
             "start": "2016",
             "end": "2019"
         },
@@ -154,11 +198,6 @@
     "militeryService": {
         "title": "Combat engineer - Squad commander & Rasap",
         "start": "2019",
-        "end": "2022",
-        "bulletPoints": [
-            "Managed multiple projects simultaneously.",
-            "Coordinated with multiple authorities in parallel.",
-            "Led field operations and team coordination under high-pressure environments."
-        ]
+        "end": "2022"
     }
 }

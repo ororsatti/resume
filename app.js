@@ -2,7 +2,7 @@ let context;
 
 document.addEventListener("DOMContentLoaded", async () => {
   if (!context) {
-    const resp = await fetch("./fullstack.json");
+    const resp = await fetch("./backend.json");
     context = await resp.json();
   }
 
