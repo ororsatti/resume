@@ -30,9 +30,9 @@
                     "start": "2025",
                     "description": "Strengthened Titan’s no-code platform by building an AI-driven form generation service and robust schema validation workflows focused on backend reliability and correctness.",
                     "bulletPoints": [
-                        "Built and deployed a stateless AI microservice for dynamic form/website generation with clear interfaces and observability.",
-                        "Refactored legacy form logic into reusable Zod schema modules to standardize server-side validation and reduce defects.",
-                        "Implemented automated validation pipelines to detect and correct LLM-induced schema issues, improving production stability."
+                        "Built and deployed a stateless AI microservice for dynamic form/website generation with well-defined interfaces and full observability.",
+                        "Designed a Redis-based pub/sub system to synchronize multi-process servers with incoming AI events, ensuring consistent real-time updates.",
+                        "Implemented automated validation workflows to detect and correct LLM-induced schema errors, increasing production stability and reducing manual fixes."
                     ],
                     "technologies": [
                         "Node.js",
@@ -44,7 +44,8 @@
                         "LLMs",
                         "Git",
                         "React",
-                        "Redux"
+                        "Redux",
+                        "Redis"
                     ]
                 },
                 {
@@ -73,7 +74,7 @@
                     ]
                 },
                 {
-                    "role": "Backend-Focused Engineer",
+                    "role": "Full Stack (Backend-Oriented) Engineer",
                     "title": "NOF cooling",
                     "description": "Delivered the backend and platform plumbing for a React Native app controlling smart on-farm refrigeration units over BLE, with secure data flows and environments.",
                     "start": "2024",

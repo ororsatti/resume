@@ -30,9 +30,9 @@
                     "start": "2025",
                     "description": "Enhanced Titan’s no-code platform with an AI-powered form engine and schema validation workflows.",
                     "bulletPoints": [
-                        "Built and deployed an AI service to generate dynamic forms and websites.",
-                        "Modernized legacy form engines into reusable Zod schemas for consistency and reuse.",
-                        "Designed validation pipelines to automatically detect and correct LLM schema errors, improving reliability in production."
+                        "Built and deployed a stateless AI microservice for dynamic form/website generation with well-defined interfaces and full observability.",
+                        "Designed a Redis-based pub/sub system to synchronize multi-process servers with incoming AI events, ensuring consistent real-time updates.",
+                        "Implemented automated validation workflows to detect and correct LLM-induced schema errors, increasing production stability and reducing manual fixes."
                     ],
                     "technologies": [
                         "JavaScript",
