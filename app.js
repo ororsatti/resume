@@ -2,7 +2,7 @@ let context;
 
 document.addEventListener("DOMContentLoaded", async () => {
   if (!context) {
-    const resp = await fetch("../data/backend.json");
+    const resp = await fetch("../data/resume.json");
     context = await resp.json();
   }
 
