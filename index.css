@@ -77,6 +77,13 @@ body {
     font-weight: 500;
 }
 
+
+.header__contact-list--container {
+    display: flex;
+    gap:2rem;
+}
+
+
 .header__contact-list {
     list-style-type: none;
 }

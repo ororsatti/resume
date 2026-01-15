@@ -22,21 +22,25 @@
             <div class="header--title font--lg">{{personalDetails.name}}</div>
             <div class="header--desc font--sm">{{personalDetails.description}}</div>
         </div>
-        <ul class="header__contact-list font--xs">
-            <li>
-                <a class="link" href="tel:{{personalDetails.phoneNumber}}">{{personalDetails.phoneNumber}}</a>
-            </li>
-            <li>
-                <a class="link" target="_blank"
-                    href="mailto:{{personalDetails.email}}?subject=Hey%2C%20I%27m%20contacting%20you%20about%20your%20resume&body=We%20want%20to%20offer%20you%20a%20job">{{personalDetails.email}}</a>
-            </li>
-            <li>
-                <a class="link" href="{{personalDetails.linkedIn}}">{{personalDetails.linkedIn}}</a>
-            </li>
-            <li>
-                <a class="link" href="{{personalDetails.gitHub}}">{{personalDetails.gitHub}}</a>
-            </li>
-        </ul>
+        <div class="header__contact-list--container">
+            <ul class="header__contact-list font--xs">
+                <li>
+                    <a class="link" href="tel:{{personalDetails.phoneNumber}}">{{personalDetails.phoneNumber}}</a>
+                </li>
+                <li>
+                    <a class="link" target="_blank"
+                        href="mailto:{{personalDetails.email}}?subject=Hey%2C%20I%27m%20contacting%20you%20about%20your%20resume&body=We%20want%20to%20offer%20you%20a%20job">{{personalDetails.email}}</a>
+                </li>
+            </ul>
+            <ul class="header__contact-list font--xs">
+                <li>
+                    <a class="link" href="{{personalDetails.linkedIn}}">{{personalDetails.linkedIn}}</a>
+                </li>
+                <li>
+                    <a class="link" href="{{personalDetails.gitHub}}">{{personalDetails.gitHub}}</a>
+                </li>
+            </ul>
+        </div>
         <ul class="header__lang-list">
             {{#each personalDetails.languages as | l |}}
             <li class="text--xs"><span class="lang-title">{{l.title}}</span><span class="lang-level">{{l.level}}</span>
@@ -62,6 +66,7 @@
                         </span>{{job.description}}
                     </div>
                 </div>
+                {{#if job.projects}}
                 <ul class="list">
                     {{#each job.projects as | p |}}
                     <li class="project">
@@ -86,6 +91,24 @@
                     </li>
                     {{/each}}
                 </ul>
+                {{else}}
+                <div class="project">
+                    <div class="project__desc font--xs">
+                        {{p.description}}
+                    </div>
+                    <ul class="project__bullet-points">
+                        {{#each job.bulletPoints as | bp |}}
+                        <li class="font--xs">{{bp}}</li>
+                        {{/each}}
+                    </ul>
+                    <ul class="project__tech">
+                        {{#each job.technologies as | t |}}
+                        <li class="text--xxs">{{t}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+
+                {{/if}}
                 {{/each}}
             </div>
         </div>
@@ -103,18 +126,18 @@
             </ul>
         </div>
 
-        <div class="section">
-            <div class="font--lg section__title">Military Service</div>
-            <div class="militery__details">
-                <span class="font--sm militery__details__title">{{militeryService.title}} ({{militeryService.start}} -
-                    {{militeryService.end}})</span>
-                <ul class="militery__bullet-points">
-                    {{#each militeryService.bulletPoints as | bp |}}
-                    <li class="font--xs">{{bp}}</li>
-                    {{/each}}
-                </ul>
-            </div>
-        </div>
+        <!-- <div class="section"> -->
+        <!--     <div class="font--lg section__title">Military Service</div> -->
+        <!--     <div class="militery__details"> -->
+        <!--         <span class="font--sm militery__details__title">{{militeryService.title}} ({{militeryService.start}} - -->
+        <!--             {{militeryService.end}})</span> -->
+        <!--         <ul class="militery__bullet-points"> -->
+        <!--             {{#each militeryService.bulletPoints as | bp |}} -->
+        <!--             <li class="font--xs">{{bp}}</li> -->
+        <!--             {{/each}} -->
+        <!--         </ul> -->
+        <!--     </div> -->
+        <!-- </div> -->
     </div>
 </body>
 

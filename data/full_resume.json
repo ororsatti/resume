@@ -163,6 +163,31 @@
         },
         {
           "role": "Full-stack developer",
+          "title": "PlaySTUDIOS",
+          "start": "2023",
+          "end": "2024",
+          "description": "Built an internal tool to measure and visualize ad performance across multiple campaigns.",
+          "bulletPoints": [
+            "Implemented interactive data visualizations in React using Plotly.js",
+            "Authored SQL queries against DynamoDB via PartiQL to aggregate and filter large-scale ad campaign data.",
+            "Developed RESTful API endpoints in Python/Flask to serve dashboard data to front-end applications."
+          ],
+          "technologies": [
+            "React",
+            "JavaScript",
+            "TypeScript",
+            "Plotly.js",
+            "Python",
+            "Flask",
+            "DynamoDB",
+            "SQL",
+            "MongoDB",
+            "Git",
+            "Express.js"
+          ]
+        },
+        {
+          "role": "Full-stack developer",
           "title": "Skiff (Acquired by Notion)",
           "start": "2022",
           "end": "2023",
