@@ -159,8 +159,8 @@ body {
 }
 
 .job__title__duration {
-    font-style: italic;
-    color: var(--text-secondary);
+    font-weight: 500;
+    color: var(--text-primary);
 }
 
 .job__role {

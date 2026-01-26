@@ -56,7 +56,6 @@
         {
           "role": "Software Engineer",
           "title": "Titan",
-          "start": "2025",
           "description": "Enhanced Titan’s no-code platform with an AI-powered form engine and schema validation workflows.",
           "bulletPoints": [
             "Built and deployed a stateless AI microservice for dynamic form/website generation with well-defined interfaces and full observability.",
@@ -79,8 +78,6 @@
         {
           "role": "Software Engineer",
           "title": "Zafran Security",
-          "start": "2024",
-          "end": "2025",
           "description": "Architected and implemented a generic metrics system in the dashboard.",
           "bulletPoints": [
             "Architected and submitted design documents describing the solution",
@@ -106,8 +103,6 @@
         {
           "role": "Software Engineer",
           "title": "NOF Cooling",
-          "start": "2023",
-          "end": "2025",
           "description": "Built a React Native app to monitor and control smart on-farm refrigeration units via Bluetooth Low Energy (BLE).",
           "bulletPoints": [
             "Developed a React Native mobile application for remote monitoring and control of on-farm refrigerators.",
@@ -133,8 +128,6 @@
         {
           "role": "Software Engineer",
           "title": "Groundwork",
-          "start": "2024",
-          "end": "2025",
           "description": "Built a CRM platform and an offline-first mobile app for farm management and soil sampling.",
           "bulletPoints": [
             "Led development of an offline-first React Native sampling app with a custom sync engine.",
@@ -163,8 +156,6 @@
         {
           "role": "Software Engineer",
           "title": "Skiff (Acquired by Notion)",
-          "start": "2022",
-          "end": "2023",
           "description": "Built a privacy-first, end-to-end encrypted collaboration suite—an alternative to Google Workspace.",
           "bulletPoints": [
             "Developed offline-first, encrypted email client in React Native, reaching 200,000+ users.",
