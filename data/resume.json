@@ -1,7 +1,7 @@
 {
   "personalDetails": {
     "name": "Or Antonio Orsatti",
-    "description": "Full-stack Engineer with 4+ years of experience in backend and frontend development using Go, NodeJS, React, and React Native. Skilled in building scalable systems, integrating AI into products, and using AI tools to improve development.",
+    "description": "Software engineer with 4+ years of experience in backend and frontend development using Go, NodeJS, React, and React Native. Skilled in building scalable systems, integrating AI into products, and using AI tools to improve development.",
     "phoneNumber": "+972528461007",
     "email": "ororsatti@gmail.com",
     "linkedIn": "https://www.linkedin.com/in/or-orsatti/",
@@ -20,13 +20,12 @@
   "workExperience": [
     {
       "title": "Cevro.ai",
-      "role": "Founding Full-Stack Engineer",
+      "role": "Software Engineer",
       "description": "Building AI-powered agents for the iGaming industry.",
       "start": "Sep 2025",
       "bulletPoints": [
         "Built full-stack automated QA system for AI conversation testing with Bull queue orchestration, WebSocket real-time updates, and a React dashboard with transcript viewing and human scoring.",
-        "Implemented end-to-end email channel support across backend lifecycle management (NestJS), frontend configuration UI (Next.js), and LLM behavior tuning (LangGraph/Python).",
-        "Developed channel-aware AI instruction system enabling customized response behavior across Zendesk, LiveChat, Intercom, and email platforms."
+        "Designed and implemented a flexible bonus engine with an accompanying dynamic rule evaluator for assessing player eligibility for bonuses."
       ],
       "technologies": [
         "TypeScript",
@@ -49,13 +48,13 @@
     },
     {
       "title": "10Play",
-      "role": "Full-stack developer",
+      "role": "Software Engineer",
       "description": "A boutique software agency. Worked on multiple client projects, developing custom solutions across various industries.",
       "end": "Sep 2025",
       "start": "Jul 2022",
       "projects": [
         {
-          "role": "Full-stack Developer",
+          "role": "Software Engineer",
           "title": "Titan",
           "start": "2025",
           "description": "Enhanced Titan’s no-code platform with an AI-powered form engine and schema validation workflows.",
@@ -78,7 +77,7 @@
           ]
         },
         {
-          "role": "Full-stack developer",
+          "role": "Software Engineer",
           "title": "Zafran Security",
           "start": "2024",
           "end": "2025",
@@ -105,7 +104,7 @@
           ]
         },
         {
-          "role": "Full-stack developer",
+          "role": "Software Engineer",
           "title": "NOF Cooling",
           "start": "2023",
           "end": "2025",
@@ -132,7 +131,7 @@
           ]
         },
         {
-          "role": "Full-stack developer",
+          "role": "Software Engineer",
           "title": "Groundwork",
           "start": "2024",
           "end": "2025",
@@ -162,7 +161,7 @@
           ]
         },
         {
-          "role": "Full-stack developer",
+          "role": "Software Engineer",
           "title": "Skiff (Acquired by Notion)",
           "start": "2022",
           "end": "2023",
